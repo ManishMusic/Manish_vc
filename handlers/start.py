@@ -9,12 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgIAAxkBAAEDF6Rgrcl1kZNSrAABqO7L-kVd4tWK48MAAi0BAAIw1J0REIYEuS-exNEeBA")
+    await message.reply_sticker("CAACAgUAAxkBAAIPGGCyIGCcjyWXCooFgYpa3SvIViXLAAKDAgACQ0MwVM1lUK0j0QU0HwQ")
     await message.reply_text(
         f"""<b> Hey,👋 {message.from_user.first_name}!
 \n Hello 👋 there! I can play music in voice chats of Telegeam Groups.
 I have a lot of cool feature that will amaze you!
-\nTo add in your group contact us at @slbotzone .
+\nTo add in your group contact us at @ankivectorUpdates .
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,23 +23,23 @@ I have a lot of cool feature that will amaze you!
             [
                 [
                     InlineKeyboardButton(
-                        "🎧 Music World 🎧 ", url="https://t.me/supunmasl",
+                        "Assisten Name", url="https://t.me/AnkivectorMusicbot",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "👨‍👨‍👦 Group 👨‍👨‍👦 ", url="https://t.me/slbotzone"
+                        "Support Group", url="https://t.me/AnkiSupport_Official"
                     ),
                     InlineKeyboardButton(
-                        " 🌀 Channel 🌀 ", url="https://t.me/FreeNetSL"
+                        "Updates  Channel", url="https://t.me/ankivectorUpdates"
                     ),
                     InlineKeyboardButton(
-                        "📦 Source code📦", url="https://github.com/supunmadurangasl/VCPlayBot"
+                        "Bots Channel", url="https://t.me/slhitbotofficial"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group 🎙 ", url="https://t.me/vc_play_slbotzone_bot?startgroup=true"
+                        "➕ Add To Your Group 🎙 ", url="https://t.me/TheAnkiVectorMusicBot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,10 +58,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " 🌀 Channel 🌀", url="https://t.me/FreeNetSL"
+                        "Updates Channel", url="https://t.me/ankivectorUpdates"
                     ),
                     InlineKeyboardButton(
-                        " 👨‍👨‍👦 Group 👨‍👨‍👦", url="https://t.me/slbotzone"
+                        "Support Group", url="https://t.me/AnkiSupport_Official"
                     )
                 ],    
                 [    
@@ -107,10 +107,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " 🌀 Channel🌀 ", url="https://t.me/FreeNetSL"
+                        "Updates Channel", url="https://t.me/ankivectorUpdates"
                     ),
                     InlineKeyboardButton(
-                        "👨‍Group 👨‍", url="https://t.me/slbotzone"
+                        "Suport Group", url="https://t.me/AnkiSupport_Official"
                     )
                 ]
             ]
