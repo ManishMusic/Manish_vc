@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker(" CAACAgUAAxkBAAIPuGC1tg09a93mFrYL7_yMlnpJ9T-XAAIdAgACBz2xVSFtM8P8WVoKHwQ")
+    await message.reply_sticker("CAACAgUAAxkBAAIPuGC10yrW-CaVKdiZjawD03kqDm7uAAIdAgACBz2xVSFtM8P8WVoKHwQ")
     await message.reply_text(
         f"""<b> Hey,👋 {message.from_user.first_name}!
 \n Hello 👋 there! I can play music in voice chats of Telegeam Groups.
