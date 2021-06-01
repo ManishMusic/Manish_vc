@@ -9,12 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIPGGCyIGCcjyWXCooFgYpa3SvIViXLAAKDAgACQ0MwVM1lUK0j0QU0HwQ")
+    await message.reply_sticker(" CAACAgUAAxkBAAIPuGC1tg09a93mFrYL7_yMlnpJ9T-XAAIdAgACBz2xVSFtM8P8WVoKHwQ")
     await message.reply_text(
         f"""<b> Hey,👋 {message.from_user.first_name}!
 \n Hello 👋 there! I can play music in voice chats of Telegeam Groups.
 I have a lot of cool feature that will amaze you!
-\nTo add in your group contact us at @ankivectorUpdates .
+\nTo add in your group contact us at @Paradise2021Lk .
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,23 +23,20 @@ I have a lot of cool feature that will amaze you!
             [
                 [
                     InlineKeyboardButton(
-                        "Assisten Name", url="https://t.me/AnkivectorMusicbot",
+                        "Assisten", url="https://t.me/paradise_Music_MasTeR",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Support Group", url="https://t.me/AnkiSupport_Official"
+                        "Support Group", url="https://t.me/Paradise2021Lk"
                     ),
                     InlineKeyboardButton(
-                        "Updates  Channel", url="https://t.me/ankivectorUpdates"
-                    ),
-                    InlineKeyboardButton(
-                        "Bots Channel", url="https://t.me/slhitbotofficial"
+                        "Bots Channel", url="https://t.me/ankivectorUpdates"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group 🎙 ", url="https://t.me/TheAnkiVectorMusicBot?startgroup=true"
+                        "➕ Add To Your Group 🎙 ", url="https://t.me/PARADISEMUSICPlYer_bot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,10 +55,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Updates Channel", url="https://t.me/ankivectorUpdates"
+                        "Asssisten bot", url="https://t.me/paradise_Music_MasTeR"
                     ),
                     InlineKeyboardButton(
-                        "Support Group", url="https://t.me/AnkiSupport_Official"
+                        "Support Group", url="https://t.me/Paradise2021Lk"
                     )
                 ],    
                 [    
@@ -110,7 +107,7 @@ async def help(client: Client, message: Message):
                         "Updates Channel", url="https://t.me/ankivectorUpdates"
                     ),
                     InlineKeyboardButton(
-                        "Suport Group", url="https://t.me/AnkiSupport_Official"
+                        "Suport Group", url="https://t.me/Paradise2021Lk"
                     )
                 ]
             ]
