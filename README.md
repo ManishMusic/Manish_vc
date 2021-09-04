@@ -2,7 +2,7 @@
 The easiest way to deploy this Bot
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Damantha126/VCPlayBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TeamDaisyX/DaisyXMusic/tree/Py-Tgcalls(main)&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,ASSISTANT_NAME,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template= https://github.com/TeamDaisyX/DaisyXMusic/tree/Py-Tgcalls(main)&envs =SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,ASSISTANT_NAME,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
 
 Get STRING_NAME from here:
 
